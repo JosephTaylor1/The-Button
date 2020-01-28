@@ -1,0 +1,26 @@
+#form-container{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#text-input {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+#button {
+    width: 20%;
+    display: inline-block;
+    font-family: 'Roboto',sans-serif;
+    color:grey;
+    transition: all 0.2s;
+}
+#button:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+}
