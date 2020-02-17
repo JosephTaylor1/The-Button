@@ -5,10 +5,10 @@ class GamesList extends Component {
 
     render() {
         const options = games.map((item) =>
-        <option key={item.id} value={item.id}>
-            {item.title}
-        </option>
-    );
+            <option key={item.id} value={item.id}>
+                {item.title}
+            </option>
+        );
         return(
             <select className='dd-select'>
             <option>Select a game</option>
