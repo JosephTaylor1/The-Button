@@ -7,7 +7,7 @@ class EmailTableConstructor extends Component {
         super(props);
         this.state = {
             email: '',
-            emails: []
+            emails: [],
         }
     }
 
