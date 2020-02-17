@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import { games } from './infoObjects/gamesObject.js'
 
 class GamesList extends Component {
 
     render() {
-        let chosenGame = this.props.chosenGame;
-        let options = chosenGame.map((item) =>
+        const options = games.map((item) =>
             <option key={item.id} value={item.id}>
                 {item.title}
             </option>
