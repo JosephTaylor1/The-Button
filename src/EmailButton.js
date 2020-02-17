@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './EmailButton.css';
+import GamesList from './GamesList.js';
+import './styles/EmailButton.css';
 
 class EmailButton extends Component {
 
@@ -11,6 +12,7 @@ class EmailButton extends Component {
             <input id="text-input" type="email" value={this.props.value} onChange={this.props.onChange} />
           </label>
           <input id="button" type="submit" value="Submit" />
+          <GamesList/>
         </form>
       );
     }
