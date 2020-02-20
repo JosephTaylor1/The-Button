@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { games } from './infoObjects/gamesObject.js'
+import { games } from './infoObjects/gamesObject.js';
 
 class GamesList extends Component {
 
@@ -10,7 +10,7 @@ class GamesList extends Component {
             </option>
         );
         return(
-            <select className='dd-select'>
+            <select className='games-select' value={this.props.value} onChange={this.props.onChange}>
             <option>Select a game</option>
                 {options}
             </select>
