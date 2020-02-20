@@ -10,9 +10,12 @@ class EmailList extends Component {
             );
 
         return (
-            <ol value={this.props.value} >
-                {emails.length ? emailItems : <p>This list is empty</p>}
-            </ol>
+            <div>
+                <h1> {this.props.title} </h1>
+                <ol value={this.props.value} >
+                    {emails.length ? emailItems : <p>This list is empty</p>}
+                </ol>
+            </div>
         );
     }
 }
